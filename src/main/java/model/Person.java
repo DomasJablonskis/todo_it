@@ -26,6 +26,4 @@ public class Person {
     public void setLastName() {
         this.lastName = lastName;
     }
-    //Updated?
-    Test
 }
