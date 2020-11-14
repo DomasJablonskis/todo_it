@@ -2,23 +2,19 @@ package model.data;
 
 public class PersonSequencer {
 
-    public static int personId = 0;
-
-    static int nextPersonId(){
+    private static int personId = 0;
 
 
-        return personId++;
+//Add a static method called nextPersonId that increment and return the next
+//personId value.
+
+    static int nextPersonId() {
+
+        return ++personId;
     }
 
-
-
-
-    static int reset(){
-
+    static int reset() {
         return 0;
     }
-
-
-
 
 }

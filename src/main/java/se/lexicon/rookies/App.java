@@ -1,9 +1,20 @@
 package se.lexicon.rookies;
 
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+import model.data.PersonSequencer;
+
+public class App {
+    public static void main( String[] args ) {
+
+        PersonSequencer person1 = new PersonSequencer();
+
+        //person1.
+
+
+
+
+      //PersonSequencer.personId();
+
+
+
     }
 }
