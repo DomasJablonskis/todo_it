@@ -15,9 +15,6 @@ public class TodoItems {
 
 
     public TodoItems findById(int itemsId){
-        //Iterate through array
-        //Check if personId is the same as personId in array.
-        //return found person
 
         for(int i =0; i< items.length; i++){
             if(itemsId == items[i].getitemsId()){
@@ -25,6 +22,10 @@ public class TodoItems {
             }
         }
         return null;
+    }
+
+    private int getitemsId() {
+        return 0;
     }
 
     public void clear(){
