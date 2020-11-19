@@ -8,7 +8,7 @@ public class Person {
     //Constructor for instating a object of Person
     public Person (int personId, String firstName, String lastName) {
         this.firstName = firstName;
-        this.lastName = firstName;
+        this.lastName = lastName;
     }
     public int getPersonId() {
         return personId;
