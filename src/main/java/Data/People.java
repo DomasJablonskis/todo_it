@@ -10,6 +10,7 @@ public class People  {
     public int size(){
         return people.length;
     }
+
     public Person[] findAll(){
         return people;
     }
