@@ -5,7 +5,7 @@ import model.data.PersonSequencer;
 public class App {
     public static void main( String[] args ) {
 
-        PersonSequencer person1 = new PersonSequencer();
+        //PersonSequencer person1 = new PersonSequencer();
 
         //person1.
 
@@ -13,7 +13,6 @@ public class App {
 
 
       //PersonSequencer.personId();
-
 
 
     }
