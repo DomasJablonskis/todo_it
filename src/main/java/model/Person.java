@@ -4,6 +4,8 @@ public class Person {
     int personId;
     String firstName;
     String lastName;
+
+    //Constructor for instating a object of Person
     public Person (int personId, String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = firstName;
