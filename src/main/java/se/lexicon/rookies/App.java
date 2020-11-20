@@ -1,18 +1,13 @@
 package se.lexicon.rookies;
 
 import model.data.PersonSequencer;
+import model.data.TodoSequencer;
 
 public class App {
     public static void main( String[] args ) {
 
-        //PersonSequencer person1 = new PersonSequencer();
-
-        //person1.
 
 
-
-
-      //PersonSequencer.personId();
 
 
     }
