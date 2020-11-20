@@ -1,9 +1,14 @@
 package se.lexicon.rookies;
 
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+import model.data.PersonSequencer;
+import model.data.TodoSequencer;
+
+public class App {
+    public static void main( String[] args ) {
+
+
+
+
+
     }
 }
