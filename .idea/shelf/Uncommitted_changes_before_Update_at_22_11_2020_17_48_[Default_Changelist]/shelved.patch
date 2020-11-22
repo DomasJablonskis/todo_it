@@ -1,0 +1,115 @@
+Index: src/main/java/se/lexicon/rookies/App.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package se.lexicon.rookies;\r\n\r\nimport model.data.PersonSequencer;\r\nimport model.data.TodoSequencer;\r\n\r\npublic class App {\r\n    public static void main( String[] args ) {\r\n\r\n\r\n\r\n\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/se/lexicon/rookies/App.java	(revision 858ace885ea37a0fb9a32710196ff6f926835cf9)
++++ src/main/java/se/lexicon/rookies/App.java	(date 1605881888302)
+@@ -1,8 +1,5 @@
+ package se.lexicon.rookies;
+ 
+-import model.data.PersonSequencer;
+-import model.data.TodoSequencer;
+-
+ public class App {
+     public static void main( String[] args ) {
+ 
+Index: src/main/java/model/Todo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package model;\r\n\r\npublic class Todo {\r\n    int todoId;\r\n    String description;\r\n    boolean done;\r\n    Person assignee;\r\n\r\n    public Todo(int todoId, String description) {\r\n        this.todoId = todoId;\r\n        this.description = description;\r\n    }\r\n\r\n    public int getTodoId() {\r\n        return todoId;\r\n    }\r\n\r\n    public void setTodoId() {\r\n        this.todoId = todoId;\r\n    }\r\n\r\n    public String getDescription() {\r\n        return description;\r\n    }\r\n\r\n    public void setDescription() {\r\n        this.description = description;\r\n    };\r\n\r\n}\r\n
+===================================================================
+--- src/main/java/model/Todo.java	(revision 858ace885ea37a0fb9a32710196ff6f926835cf9)
++++ src/main/java/se/lexicon/rookies/model/Todo.java	(date 1605881888499)
+@@ -1,4 +1,4 @@
+-package model;
++package se.lexicon.rookies.model;
+ 
+ public class Todo {
+     int todoId;
+Index: src/main/java/model/Person.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package model;\r\n\r\npublic class Person {\r\n    int personId;\r\n    String firstName;\r\n    String lastName;\r\n\r\n    //Constructor for instating a object of Person\r\n    public Person (int personId, String firstName, String lastName) {\r\n        this.firstName = firstName;\r\n        this.lastName = lastName;\r\n    }\r\n    public int getPersonId() {\r\n        return personId;\r\n    }\r\n    public void setPersonId() {\r\n        this.personId = personId;\r\n    }\r\n    public String getFirstName() {\r\n        return firstName;\r\n    }\r\n    public void setFirstName() {\r\n        this.firstName = firstName;\r\n    }\r\n    public String getLastName() {\r\n        return lastName;\r\n    }\r\n    public void setLastName() {\r\n        this.lastName = lastName;\r\n    }\r\n}
+===================================================================
+--- src/main/java/model/Person.java	(revision 858ace885ea37a0fb9a32710196ff6f926835cf9)
++++ src/main/java/se/lexicon/rookies/model/Person.java	(date 1605881888457)
+@@ -1,4 +1,4 @@
+-package model;
++package se.lexicon.rookies.model;
+ 
+ public class Person {
+     int personId;
+Index: src/main/java/model/data/TodoSequencer.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package model.data;\r\n\r\npublic class TodoSequencer {\r\n\r\n\r\n    protected static int toDoId = 0;\r\n\r\n\r\n    public static int nextToDoId() {\r\n\r\n        return ++toDoId;\r\n    }\r\n\r\n    public static void reset() {\r\n\r\n        toDoId = 0;\r\n\r\n    }\r\n\r\n}\r\n
+===================================================================
+--- src/main/java/model/data/TodoSequencer.java	(revision 858ace885ea37a0fb9a32710196ff6f926835cf9)
++++ src/main/java/se/lexicon/rookies/data/TodoSequencer.java	(date 1605881888413)
+@@ -1,4 +1,4 @@
+-package model.data;
++package se.lexicon.rookies.data;
+ 
+ public class TodoSequencer {
+ 
+Index: src/main/java/model/data/PersonSequencer.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package model.data;\r\n\r\npublic class PersonSequencer {\r\n\r\n    private static int personId = 0;\r\n\r\n    public static int nextPersonId() {\r\n\r\n        return ++personId;\r\n    }\r\n\r\n    public static void reset() {\r\n        personId = 0;\r\n\r\n    }\r\n\r\n}\r\n
+===================================================================
+--- src/main/java/model/data/PersonSequencer.java	(revision 858ace885ea37a0fb9a32710196ff6f926835cf9)
++++ src/main/java/se/lexicon/rookies/data/PersonSequencer.java	(date 1605881888447)
+@@ -1,4 +1,4 @@
+-package model.data;
++package se.lexicon.rookies.data;
+ 
+ public class PersonSequencer {
+ 
+Index: src/test/java/model/data/PersonSequencerTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package model.data;\r\n\r\nimport org.junit.Test;\r\n\r\nimport static org.junit.Assert.*;\r\n\r\npublic class PersonSequencerTest {\r\n\r\n    @Test\r\n    public void nextPersonId() {\r\n        // Arrange\r\n\r\n        int expected = 1;\r\n\r\n\r\n        // Act\r\n        int actual = PersonSequencer.nextPersonId();\r\n\r\n\r\n        // Assert\r\n\r\n        assertEquals(expected, actual);\r\n\r\n        // assert with your eyes ;)\r\n        System.out.println(\"PersonSequencer.nextPersonId() expected = \" + expected + \", actual = \" + actual);\r\n\r\n    }\r\n\r\n    @Test\r\n    public void reset() {\r\n        assertTrue(true);\r\n    }\r\n\r\n    @Test\r\n    public void testNextPersonId() {\r\n    }\r\n\r\n    @Test\r\n    public void testReset() {\r\n    }\r\n}
+===================================================================
+--- src/test/java/model/data/PersonSequencerTest.java	(revision 858ace885ea37a0fb9a32710196ff6f926835cf9)
++++ src/test/java/se/lexicon/rookies/data/PersonSequencerTest.java	(date 1605881888354)
+@@ -1,4 +1,4 @@
+-package model.data;
++package se.lexicon.rookies.model.data;
+ 
+ import org.junit.Test;
+ 
+Index: src/test/java/model/data/TodoSequencerTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package model.data;\r\n\r\nimport org.junit.Before;\r\nimport org.junit.Test;\r\n\r\nimport java.security.spec.RSAOtherPrimeInfo;\r\n\r\nimport static org.junit.Assert.*;\r\n\r\npublic class TodoSequencerTest {\r\n\r\n    @Before\r\n    public void before() {\r\n        TodoSequencer.toDoId = 0;\r\n    }\r\n\r\n\r\n\r\n    @Test\r\n    public void test_nextToDoId() {\r\n        //Arrange\r\n        int expected = 46;\r\n\r\n        TodoSequencer.toDoId = 45;\r\n\r\n\r\n        //Act\r\n\r\n        int actual = TodoSequencer.nextToDoId();\r\n\r\n\r\n\r\n        //Assert\r\n        assertEquals(expected, actual);\r\n\r\n\r\n\r\n    }\r\n\r\n    @Test\r\n    public void test_reset() {\r\n        //Arrange\r\n        int expected = 0;\r\n        int actual = 345567;\r\n\r\n        TodoSequencer.toDoId = 45;\r\n\r\n\r\n        //Act\r\n        TodoSequencer.reset();\r\n        actual = TodoSequencer.toDoId;\r\n\r\n\r\n\r\n\r\n        //Assert\r\n        assertEquals(expected, actual);\r\n\r\n    }\r\n}
+===================================================================
+--- src/test/java/model/data/TodoSequencerTest.java	(revision 858ace885ea37a0fb9a32710196ff6f926835cf9)
++++ src/test/java/se/lexicon/rookies/data/TodoSequencerTest.java	(date 1605881888321)
+@@ -1,10 +1,8 @@
+-package model.data;
++package se.lexicon.rookies.model.data;
+ 
+ import org.junit.Before;
+ import org.junit.Test;
+ 
+-import java.security.spec.RSAOtherPrimeInfo;
+-
+ import static org.junit.Assert.*;
+ 
+ public class TodoSequencerTest {
+Index: src/test/java/model/PersonTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package model;\r\n\r\nimport org.junit.Test;\r\n\r\nimport static org.junit.Assert.*;\r\n\r\npublic class PersonTest {\r\n\r\n    @Test\r\n    public void test_getPersonId() {\r\n        // Arrange\r\n        // DataType variableName  = new Constructor();\r\n       Person person1  = new Person(1, \"Domas\", \"Jablonskis\");\r\n\r\n       // Act\r\n\r\n        person1.getLastName();\r\n        \r\n        // Assert\r\n\r\n        //If getFirstName is Domas then the test pass.\r\n        assertEquals( \"Jablonskis\", person1.getLastName());\r\n        //assertEquals( \"Domas\", person1.getLastName());\r\n\r\n\r\n    }\r\n\r\n    @Test\r\n    public void setPersonId() {\r\n    }\r\n\r\n    @Test\r\n    public void getFirstName() {\r\n    }\r\n\r\n    @Test\r\n    public void setFirstName() {\r\n    }\r\n\r\n    @Test\r\n    public void getLastName() {\r\n    }\r\n\r\n    @Test\r\n    public void setLastName() {\r\n    }\r\n\r\n}
+===================================================================
+--- src/test/java/model/PersonTest.java	(revision 858ace885ea37a0fb9a32710196ff6f926835cf9)
++++ src/test/java/se/lexicon/rookies/model/PersonTest.java	(date 1605881888340)
+@@ -1,4 +1,4 @@
+-package model;
++package se.lexicon.rookies.model;
+ 
+ import org.junit.Test;
+ 
