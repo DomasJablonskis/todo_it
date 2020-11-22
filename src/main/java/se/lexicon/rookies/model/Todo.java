@@ -1,4 +1,4 @@
-package model;
+package se.lexicon.rookies.model;
 
 public class Todo {
     int todoId;
