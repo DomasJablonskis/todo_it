@@ -25,6 +25,37 @@ public class TodoItems {
         return null;
     }
 
+    public Todo[] findByDoneStatus (boolean doneStatus){
+
+        Todo[] tempArray = new Todo[0];
+
+        for (int i=0; i< items.length; i++){
+            if (items[i].isDone() == doneStatus ){
+                tempArray[i] = items[i];
+
+            }
+        }
+
+        return tempArray;
+    }
+
+    public Todo[] findByAssignee (int personId){
+
+        Todo[] objectArray = new Todo[0];
+
+
+        for (int i=0; i< items.length; i++){
+            if (personId == )
+        }
+
+
+        return ;
+
+    }
+
+
+
+
 
 }
 

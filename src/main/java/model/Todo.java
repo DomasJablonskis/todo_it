@@ -25,6 +25,21 @@ public class Todo {
 
     public void setDescription() {
         this.description = description;
-    };
+    }
+
+    public boolean isDone(){
+
+        return this.done;
+    }
+
+    public Person getAssignee() {
+        return assignee;
+    }
+
+    public void setAssignee() {
+        this.assignee = assignee;
+    }
+
+
 
 }
