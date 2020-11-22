@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:Domas" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="10e0df99-3fc0-446c-b6a9-809caba9337a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\Domas\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1k6AULvbbfi1KcNlMalVtu2BN5W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../TB" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="model" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="se.lexicon.rookies" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Domas\IdeaProjects\helloworld-javagroup33\untitled1\Array\todo_it\src\test\java\" />
+      <recent name="C:\Users\Domas\IdeaProjects\helloworld-javagroup33\untitled1\Array\todo_it\src\main\java\" />
+      <recent name="C:\Users\Domas\IdeaProjects\helloworld-javagroup33\untitled1\Array\todo_it\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PersonTest.test_getPersonId">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.rookies.App" />
+      <module name="todo_it" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.lexicon.rookies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="todo_it" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.lexicon.rookies.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.lexicon.rookies.model" />
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.rookies.model.PersonTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.getPersonId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="todo_it" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.lexicon.rookies.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.lexicon.rookies.model" />
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.rookies.model.PersonTest" />
+      <option name="METHOD_NAME" value="getPersonId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.test_getPersonId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="todo_it" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.lexicon.rookies.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.lexicon.rookies.model" />
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.rookies.model.PersonTest" />
+      <option name="METHOD_NAME" value="test_getPersonId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PersonTest.test_getPersonId" />
+        <item itemvalue="JUnit.PersonTest.getPersonId" />
+        <item itemvalue="JUnit.PersonTest" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.PersonTest.test_getPersonId" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10e0df99-3fc0-446c-b6a9-809caba9337a" name="Default Changelist" comment="" />
+      <created>1605010682335</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605010682335</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First attempt">
+      <created>1605183723651</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605183723651</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First attempt">
+      <created>1605184037746</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605184037746</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First attempt">
+      <created>1605184241217</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605184241217</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added pom.xml">
+      <created>1605185097237</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605185097237</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added pom.xml">
+      <created>1605346550332</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605346550332</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Initial commit">
+      <created>1605777289729</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605777289729</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Initial commit fixed">
+      <created>1605778043531</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605778043531</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Initial commit test push">
+      <created>1605778449732</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605778449732</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Initial commit test push">
+      <created>1606064004893</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1606064004893</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Initial commit test push">
+      <created>1606064580215</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606064580215</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Initial commit test push">
+      <created>1606068643182</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1606068643182</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First attempt" />
+    <MESSAGE value="added pom.xml" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Initial commit fixed" />
+    <MESSAGE value="Initial commit test push" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit test push" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1182" height="554" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1605624678559">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="92" y="92" width="1182" height="554" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.738@0.0.1366.738" timestamp="1605624678559" />
+    <state x="413" y="145" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1605880084803">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="145" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1605880084803" />
+    <state x="272" y="283" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1606066402796">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="272" y="283" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.738@0.0.1366.738" timestamp="1606066402796" />
+    <state x="479" y="250" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1606066412776">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="479" y="250" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.738@0.0.1366.738" timestamp="1606066412776" />
+    <state x="168" y="0" key="CommitChangelistDialog2" timestamp="1606069569381">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="168" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1606069569381" />
+    <state x="129" y="56" width="1092" height="618" key="DiffContextDialog" timestamp="1606063860062">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="129" y="56" width="1092" height="618" key="DiffContextDialog/0.0.1366.738@0.0.1366.738" timestamp="1606063860062" />
+    <state x="462" y="124" key="FileChooserDialogImpl" timestamp="1605788862238">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="462" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1605788862238" />
+    <state x="561" y="267" key="Github.ShareDialog" timestamp="1605011381058">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="561" y="267" key="Github.ShareDialog/0.0.1366.738@0.0.1366.738" timestamp="1605011381058" />
+    <state x="375" y="67" key="Github.UntrackedFilesDialog" timestamp="1605011446095">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="375" y="67" key="Github.UntrackedFilesDialog/0.0.1366.738@0.0.1366.738" timestamp="1605011446095" />
+    <state width="1323" height="231" key="GridCell.Tab.0.bottom" timestamp="1605877478917">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="231" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1605877478917" />
+    <state width="1323" height="231" key="GridCell.Tab.0.center" timestamp="1605877478916">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="231" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1605877478916" />
+    <state width="1323" height="231" key="GridCell.Tab.0.left" timestamp="1605877478916">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="231" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1605877478916" />
+    <state width="1323" height="231" key="GridCell.Tab.0.right" timestamp="1605877478917">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="231" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1605877478917" />
+    <state x="213" y="24" key="Maven.ArtifactSearchDialog" timestamp="1606067326401">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="213" y="24" key="Maven.ArtifactSearchDialog/0.0.1366.738@0.0.1366.738" timestamp="1606067326401" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1605870417274">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1605870417274" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1606069383128">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1606069383128" />
+    <state x="210" y="103" key="VcsDiffUtil.ChangesDialog" timestamp="1606069471830">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="210" y="103" key="VcsDiffUtil.ChangesDialog/0.0.1366.738@0.0.1366.738" timestamp="1606069471830" />
+    <state x="500" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606069582192">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="500" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1606069582192" />
+    <state x="454" y="131" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605785720302">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="454" y="131" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.738@0.0.1366.738" timestamp="1605785720302" />
+    <state x="396" y="82" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605870153824">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="396" y="82" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.738@0.0.1366.738" timestamp="1605870153824" />
+    <state x="263" y="30" key="new project wizard" timestamp="1606066604934">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="263" y="30" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1606066604934" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1605882721008">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1605882721008" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1605261162656">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1605261162656" />
+    <state x="405" y="281" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1605877037695">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="405" y="281" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1366.738@0.0.1366.738" timestamp="1605877037695" />
+  </component>
+</project>

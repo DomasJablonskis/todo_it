@@ -1,0 +1,6 @@
+diff --git src/main/java/model/data/PersonSequencer.java src/main/java/data/PersonSequencer.java
+rename from src/main/java/model/data/PersonSequencer.java
+rename to src/main/java/data/PersonSequencer.java
+diff --git src/main/java/model/data/TodoSequencer.java src/main/java/data/TodoSequencer.java
+rename from src/main/java/model/data/TodoSequencer.java
+rename to src/main/java/data/TodoSequencer.java
