@@ -1,7 +1,7 @@
-package model.data;
+package se.lexicon.rookies.data;
 
 
-import model.Todo;
+import se.lexicon.rookies.model.Todo;
 
 public class TodoItems {
 
@@ -45,11 +45,11 @@ public class TodoItems {
 
 
         for (int i=0; i< items.length; i++){
-            if (personId == )
+            if (personId == 1);
         }
 
 
-        return ;
+        return null;
 
     }
 

@@ -1,4 +1,4 @@
-package model;
+package se.lexicon.rookies.model;
 
 public class Person {
     int personId;

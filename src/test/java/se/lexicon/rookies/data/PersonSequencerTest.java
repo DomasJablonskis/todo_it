@@ -1,4 +1,4 @@
-package model.data;
+package se.lexicon.rookies.data;
 
 import org.junit.Test;
 

@@ -1,9 +1,7 @@
-package model.data;
+package se.lexicon.rookies.data;
 
 import org.junit.Before;
 import org.junit.Test;
-
-import java.security.spec.RSAOtherPrimeInfo;
 
 import static org.junit.Assert.*;
 
