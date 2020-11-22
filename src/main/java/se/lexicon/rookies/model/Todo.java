@@ -39,7 +39,4 @@ public class Todo {
     public void setAssignee() {
         this.assignee = assignee;
     }
-
-
-
 }
